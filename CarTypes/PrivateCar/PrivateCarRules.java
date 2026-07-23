@@ -1,5 +1,5 @@
 package CarTypes.PrivateCar;
-
+import CarTypes.ResultStruct;
 public class PrivateCarRules {
     double maxSpeed;
     public PrivateCarRules(double maxSpeed) {

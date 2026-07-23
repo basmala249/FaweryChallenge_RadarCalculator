@@ -1,5 +1,7 @@
 package CarTypes.BusCar;
-import CarTypes.BusCar.BusCarRules;
+
+import CarTypes.ICar;
+import CarTypes.ResultStruct;
 
 public class BusCar implements ICar {
     private double speed;
@@ -16,6 +18,7 @@ public class BusCar implements ICar {
         this.speed = speed;
     }
 
+    @Override
     public ResultStruct checkSpeed(double speed) {
         this.speed = speed;
         return busCarRules.checkBusCarSpeed(speed);

@@ -1,4 +1,4 @@
-
+import CarTypes.ResultStruct;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -25,9 +25,9 @@ public class CarViolations {
     public void addViolation(String CarPlateNumber, ResultStruct res) {
         if (!violations.containsKey(CarPlateNumber)) {
             violations.put(CarPlateNumber, new ArrayList<>());
-        }else {
-            violations.get(CarPlateNumber).add(res);
         }
+        violations.get(CarPlateNumber).add(res);
+        
     }
 
     public List<ResultStruct> getViolations(String CarPlateNumber) {

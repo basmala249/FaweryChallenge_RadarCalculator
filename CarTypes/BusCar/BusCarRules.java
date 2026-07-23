@@ -1,5 +1,5 @@
 package CarTypes.BusCar;
-
+import CarTypes.ResultStruct;
 public class BusCarRules {
     private double maxSpeed;
 

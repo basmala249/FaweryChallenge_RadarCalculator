@@ -1,4 +1,5 @@
 
+import CarTypes.ResultStruct;
 import java.util.List;
 
 public class Fine {
@@ -11,9 +12,11 @@ public class Fine {
     }
     public void getCarViolations(CarViolations carViolations) {
        violations = carViolations.getViolations(PlateNumber);
+       fineAmount = 0.0;
        for (ResultStruct violation : violations) {
             fineAmount += violation.getPrice();
-        }
+       }
+       
     }
 
     public Fine returnFine() {

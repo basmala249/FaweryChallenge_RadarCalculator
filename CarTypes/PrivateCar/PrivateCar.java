@@ -1,6 +1,7 @@
 package CarTypes.PrivateCar;
 
 import CarTypes.ICar;
+import CarTypes.ResultStruct;
 
 public class PrivateCar implements ICar {
     private double speed;
@@ -17,6 +18,7 @@ public class PrivateCar implements ICar {
         this.speed = speed;
     }
 
+    @Override
     public ResultStruct checkSpeed(double speed) {
         this.speed = speed;
         return privateCarRules.checkPrivateCarSpeed(speed);

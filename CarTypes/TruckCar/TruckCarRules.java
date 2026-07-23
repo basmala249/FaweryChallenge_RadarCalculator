@@ -1,5 +1,5 @@
 package CarTypes.TruckCar;
-
+import CarTypes.ResultStruct;
 public class TruckCarRules {
     double maxSpeed;
     public TruckCarRules(double maxSpeed) {
@@ -12,4 +12,5 @@ public class TruckCarRules {
         } else {
             return null;
         }
+}
 }

@@ -1,4 +1,5 @@
 import CarTypes.ICar;
+import CarTypes.ResultStruct;
 
 public class Radar {
     private ICar car;
@@ -67,6 +68,8 @@ public class Radar {
             carViolations.addViolation(this.PlateNumber, res);
         }
         Fine fine = new Fine(this.PlateNumber);
+        fine.getCarViolations(carViolations);
+        carViolations.addFine(fine);
         return fine.returnFine();
     }
 

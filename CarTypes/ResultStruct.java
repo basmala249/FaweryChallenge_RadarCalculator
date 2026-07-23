@@ -1,3 +1,5 @@
+package CarTypes;
+
 public class ResultStruct {
     private double Price;
     private String Message;
