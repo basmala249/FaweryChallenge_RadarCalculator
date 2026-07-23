@@ -43,7 +43,8 @@ FaweryChallenge_RadarCalculater/
 │       ├── TruckCar.java
 │       └── TruckCarRules.java
 └── README.md
+---
 
-📄 Example Output
+## 📄 Example Output
 
-<img src="./Example_Output.png" width="600" alt="Example Output" />
+![Example Output](https://raw.githubusercontent.com/basmala249/FaweryChallenge_RadarCalculator/main/Example_Output.png)
