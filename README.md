@@ -45,4 +45,4 @@ FaweryChallenge_RadarCalculater/
 └── README.md
 
 📄 Example Output
-![Example Output](https://github.com/basmala249/FaweryChallenge_RadarCalculator/blob/2d0909c12ddbd211b9c69d937112a64cccc23aea/Example_Output.png?raw=true)
+![Example Output](./Example_Output.png)
