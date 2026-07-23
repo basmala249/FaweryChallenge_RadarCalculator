@@ -45,4 +45,5 @@ FaweryChallenge_RadarCalculater/
 └── README.md
 
 📄 Example Output
-![Example Output](./Example_Output.png)
+
+<img src="./Example_Output.png" width="600" alt="Example Output" />
