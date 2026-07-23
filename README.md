@@ -46,5 +46,5 @@ FaweryChallenge_RadarCalculater/
 
 
 📄 Example Output
-<img width="661" height="379" alt="Screenshot 2026-07-23 180438" src="https://github.com/user-attachments/assets/6e290575-b812-4734-bf67-28257906d51a" />
+<img width="661" height="379" alt="Screenshot 2026-07-23 180438" src="[https://github.com/user-attachments/assets/6e290575-b812-4734-bf67-28257906d51a](https://github.com/user-attachments/assets/6e290575-b812-4734-bf67-28257906d51a)" />
 
