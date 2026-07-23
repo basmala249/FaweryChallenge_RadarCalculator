@@ -44,3 +44,7 @@ FaweryChallenge_RadarCalculater/
 │       └── TruckCarRules.java
 └── README.md
 ```
+
+## 📄 Example Output
+
+![Example Output](https://raw.githubusercontent.com/basmala249/FaweryChallenge_RadarCalculator/main/Example_Output.png)
